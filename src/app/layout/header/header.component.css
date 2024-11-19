@@ -1,0 +1,69 @@
+.navbar{
+  background-color:#FFFFFF !important;
+}
+#logoIcon{
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.625);
+  font-style: italic;
+  font-size: 25px;
+}
+#search input{
+  width: 30vw !important;
+  border: 1px solid rgb(129, 123, 123) !important;
+  border-radius: 1.5rem;
+}
+#search button{
+  border-radius: 1.5rem;
+}
+#search button:hover{
+  background-color: #C2DBFE;
+  color: #595C5F !important;
+}
+#search button{
+  border: 1px solid rgb(129, 123, 123) !important;
+  color: #595C5F !important;
+}
+
+#navlink .nav-item a{
+  position: relative;
+}
+
+#newCustomer p{
+  font-weight: 600;
+}
+
+#newCustomer a{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+
+
+
+.dropdown-menu {
+  min-width: 18rem;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.055), -5px -5px 0px rgba(255, 255, 255, 0.148);
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #navlink .nav-item .nav-link a{
+    font-size: 5px !important;
+  }
+}

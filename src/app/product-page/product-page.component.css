@@ -1,0 +1,62 @@
+.pageBox
+{
+    padding: 50px 50px;
+    margin: 50px 0px;
+    background-color: #fff;
+}
+
+.pageContent
+{
+    padding: 10px 40px;
+
+}
+
+.pageContent img
+{
+    width: 50%;
+}
+.pageContent h4
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#categoryTitle{
+  font-weight: 600 !important;
+}
+
+
+
+
+#filter p{
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+#filterDropdown{
+  background-color: black !important;
+  width: 20rem;
+}
+#dropMenu{
+  width: 20rem;
+  border: 2px solid rgba(0, 0, 0, 0.404);
+}
+#dropMenu li a{
+  color: black;
+  font-weight: 600 !important;
+}
+#dropMenu li a:hover{
+  background-color: rgba(0, 128, 0, 0.603) !important;
+  color: black;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width:600px) {
+    .pageBox
+    {
+        padding: 0px 10px;
+
+    }
+}
